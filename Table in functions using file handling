@@ -1,0 +1,11 @@
+def write_file():
+    f = open("Table.txt","w+")
+    n=2
+    print("writting Table of two")
+    for i in range(1,11):
+        low= (n, "*", i, "=", n*i)
+        f.write(low)
+    f.close()
+write_file
+
+
