@@ -1,1 +1,1 @@
-# Print-Table-of-a-number-using-Function-and-File-handling
+#Function-and-File-handling
