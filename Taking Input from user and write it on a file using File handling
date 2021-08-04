@@ -1,0 +1,10 @@
+
+def write_file():
+    name=input("Enter name: ")
+    reg=input("Enter reg no: ")
+    f=open("New.txt","w")
+    f.write(str("Name is:") +str(name))
+    f.write("\n")
+    f.write(str("Registration number is:") +str(reg))
+    f.close()
+write_file()
